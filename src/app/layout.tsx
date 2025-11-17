@@ -8,11 +8,11 @@ export const metadata: Metadata = {
   description: 'Unlock the potential of human creativity',
 };
 
-function RootLayout({
-  children,
-}: Readonly<{
+type RootLayoutProps = {
   children: ReactNode;
-}>) {
+};
+
+function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
       <body className="antialiased">{children}</body>
