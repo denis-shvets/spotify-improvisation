@@ -14,6 +14,8 @@
   --color-spotify-green-a: #1ed760;
   --color-spotify-green-b: #1fdf64;
   --color-spotify-subdued: #a7a7a7;
+  --color-decorative-subdued: #292929;
+  --color-footer-foreground: rgb(179, 179, 179);
 }
 
 body {
