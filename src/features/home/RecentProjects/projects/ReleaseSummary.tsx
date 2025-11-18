@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-import Details from './Details';
+import Details from '../Details';
 
 function ReleaseSummary() {
   return (

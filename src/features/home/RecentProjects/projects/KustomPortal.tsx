@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { ExternalLink, Info, WifiOff } from 'lucide-react';
 
-import Details from './Details';
+import Details from '../Details';
 
 const GISTS = [
   {

@@ -10,6 +10,10 @@ const LINKS = [
     href: 'https://github.com/denis-shvets',
     label: 'GitHub',
   },
+  {
+    href: 'https://github.com/denis-shvets/spotify-improvisation',
+    label: 'Improvisation Source Code',
+  },
 ];
 
 function Footer() {

@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { ExternalLink } from 'lucide-react';
+import { ExternalLink, TriangleAlert } from 'lucide-react';
 
-import Details from './Details';
+import Details from '../Details';
 
 function NaturalLanguageSearch() {
   return (
@@ -12,6 +12,12 @@ function NaturalLanguageSearch() {
         The idea is to let users apply filters using natural language.
       </Details.Intro>
       <Details.Content>
+        <p className="flex items-center gap-2">
+          <TriangleAlert className="size-4" />
+          The project uses a free AI model, which means it may occasionally hit
+          request limits. In case of any other errors, simply try again.
+          <TriangleAlert className="size-4" />
+        </p>
         <p>
           Demo:{' '}
           <Link

@@ -10,8 +10,9 @@ function Hero() {
         </span>
       </h1>
       <p className="text-center text-[1.2rem] font-bold sm:text-[1.35rem] md:text-[1.5rem]">
-        Failure is not an option. Fight to the end, with Improvisation.
-        <br /> You can do it.
+        Failure is not an option. Fight to the end - improvise, adapt, and keep
+        going.
+        <br /> You&apos;ve got this.
       </p>
       <div className="mt-6 sm:mt-8">
         <Button href="#motivation">

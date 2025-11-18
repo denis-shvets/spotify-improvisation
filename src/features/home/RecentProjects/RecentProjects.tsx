@@ -1,10 +1,10 @@
 'use client';
 
-import KustomCheckout from './KustomCheckout';
-import KustomPortal from './KustomPortal';
-import NaturalLanguageSearch from './NaturalLanguageSearch';
 import Project from './Project';
-import ReleaseSummary from './ReleaseSummary';
+import KustomCheckout from './projects/KustomCheckout';
+import KustomPortal from './projects/KustomPortal';
+import NaturalLanguageSearch from './projects/NaturalLanguageSearch';
+import ReleaseSummary from './projects/ReleaseSummary';
 
 const PROJECTS = [
   {
