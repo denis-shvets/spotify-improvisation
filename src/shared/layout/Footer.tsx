@@ -15,7 +15,7 @@ const LINKS = [
 function Footer() {
   return (
     <footer className="text-footer-foreground border-t-decorative-subdued border-t py-6">
-      <ul className="flex items-center gap-6 px-8">
+      <ul className="flex flex-col gap-4 px-4 sm:flex-row sm:items-center sm:gap-6 sm:px-8">
         {LINKS.map((link) => (
           <li key={link.href}>
             <Link
@@ -30,7 +30,7 @@ function Footer() {
         ))}
       </ul>
       <hr className="border-decorative-subdued my-6" />
-      <div className="flex items-center gap-6 px-8">
+      <div className="flex items-center gap-6 px-4 sm:px-8">
         <div className="bg-foreground rounded-sm p-2">
           <LayoutDashboard className="text-background size-6" />
         </div>

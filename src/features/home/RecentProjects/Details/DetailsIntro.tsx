@@ -7,7 +7,7 @@ type DetailsIntroProps = {
 
 function DetailsIntro({ thumbnail, children }: DetailsIntroProps) {
   return (
-    <div className="flex items-center gap-16 p-6">
+    <div className="flex flex-col items-center gap-8 p-6 md:flex-row md:gap-16">
       <div className="relative aspect-square w-full max-w-[318px] shrink-0">
         <Image
           src={thumbnail}
@@ -18,7 +18,9 @@ function DetailsIntro({ thumbnail, children }: DetailsIntroProps) {
           loading="eager"
         />
       </div>
-      <p className="max-w-[30ch] text-[1.5rem] font-bold">{children}</p>
+      <p className="text-[1rem] font-bold sm:text-[1.5rem] md:max-w-[30ch]">
+        {children}
+      </p>
     </div>
   );
 }

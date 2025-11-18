@@ -5,7 +5,7 @@ import RecentProjects from '@/features/home/RecentProjects';
 
 function RootPage() {
   return (
-    <main className="pt-18">
+    <main className="pt-12 md:pt-18">
       <Hero />
       <Blockquote />
       <Idea />

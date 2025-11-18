@@ -14,7 +14,7 @@ type RootLayoutProps = {
 
 function RootLayout({ children }: RootLayoutProps) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="en" className="min-w-[375px] scroll-smooth">
       <body className="antialiased">{children}</body>
     </html>
   );

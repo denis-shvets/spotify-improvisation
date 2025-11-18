@@ -45,18 +45,18 @@ const PROJECTS = [
 function RecentProjects() {
   return (
     <section
-      className="m-auto w-full max-w-[1920px] scroll-mt-24 p-32"
+      className="m-auto w-full max-w-[1920px] scroll-mt-24 px-4 py-24 sm:px-8 lg:px-32 lg:py-32"
       id="projects"
     >
-      <h2 className="text-spotify-subdued mb-32 text-center text-[3.5em] leading-[1.2em] font-extralight">
+      <h2 className="text-spotify-subdued mb-24 text-center text-[2.5em] leading-[1.2em] font-extralight sm:text-[3em] md:mb-32 md:text-[3.5em]">
         My recent projects
         <br />{' '}
-        <span className="text-foreground text-[4rem] font-bold">
+        <span className="text-foreground font-bold">
           and favorite proof-of-concepts
         </span>
       </h2>
-      <div className="mt-16 flex justify-center">
-        <div className="grid grid-cols-2 items-end gap-16">
+      <div className="flex justify-center">
+        <div className="grid items-end gap-16 lg:grid-cols-2">
           {PROJECTS.map((project) => (
             <Project
               key={project.description}

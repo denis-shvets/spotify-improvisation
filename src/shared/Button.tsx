@@ -10,7 +10,7 @@ function Button({ children, href }: ButtonProps) {
   return (
     <Link
       href={href}
-      className="bg-spotify-green-a hover:bg-spotify-green-b block rounded-full px-8 py-2 leading-8 font-bold text-black transition-transform hover:scale-[1.04]"
+      className="bg-spotify-green-a hover:bg-spotify-green-b block rounded-full px-8 py-2 text-center leading-8 font-bold text-black transition-transform hover:scale-[1.04]"
     >
       {children}
     </Link>

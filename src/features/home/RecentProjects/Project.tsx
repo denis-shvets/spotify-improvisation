@@ -52,9 +52,9 @@ function Project({
       <button
         type="button"
         onClick={handleOpenDialogClick}
-        className={`focus-visible:outline-foreground flex max-w-[650px] cursor-pointer flex-col gap-4 rounded-2xl px-16 py-24 text-left transition-transform hover:scale-[1.04] focus-visible:scale-[1.04] focus-visible:outline-3 ${className}`}
+        className={`focus-visible:outline-foreground flex max-w-[650px] cursor-pointer flex-col gap-4 rounded-2xl px-8 py-16 text-left transition-transform hover:scale-[1.04] focus-visible:scale-[1.04] focus-visible:outline-3 sm:px-16 sm:py-24 ${className}`}
       >
-        <div className="text-foreground max-w-[23ch] text-[2rem] font-bold before:block before:text-[6rem] before:leading-[16px] before:font-bold before:content-['\201C']">
+        <div className="text-foreground max-w-[23ch] text-[1.25rem] font-bold before:block before:text-[5rem] before:leading-[16px] before:font-bold before:content-['\201C'] lg:text-[1.5rem] lg:before:text-[5.5rem] xl:text-[2rem] xl:before:text-[6rem]">
           {description}
         </div>
         <p className="text-[0.875rem]">{notes}</p>
@@ -75,7 +75,7 @@ function Project({
           className="fixed inset-0 z-50 overflow-y-auto bg-black/50 backdrop-blur-xl"
           onClick={handleCloseDialogClick}
         >
-          <div className="px-32 py-16">
+          <div className="p-4 lg:px-32 lg:py-16">
             <div
               className="mx-auto w-full max-w-[1100px]"
               onClick={handlePropagateClick}
