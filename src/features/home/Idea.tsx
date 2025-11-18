@@ -23,9 +23,9 @@ function Idea() {
           </Link>{' '}
           intro page in two days. Use the basics - Next.js, Tailwind, and a
           small self-introduction - to produce a fresh proof-of-concept. No
-          extra libraries, no AI, no design. Just raw improvisation. The result
-          won&apos;t be perfect, but it will be fast, minimum viable, even
-          responsive, and I hope enough to keep the conversation going.
+          plan, no extra libraries, no AI, no design. Just raw improvisation.
+          The result won&apos;t be perfect, but it will be fast, minimum viable,
+          even responsive, and I hope enough to keep the conversation going.
         </p>
       </div>
       <div className="mt-6 sm:mt-8">
