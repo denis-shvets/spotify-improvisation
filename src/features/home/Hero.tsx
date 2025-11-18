@@ -14,7 +14,9 @@ function Hero() {
         <br /> You can do it.
       </p>
       <div className="m-8">
-        <Button>Read the story and enjoy the journey with Denis</Button>
+        <Button href="#motivation">
+          Read the story and enjoy the journey with Denis
+        </Button>
       </div>
     </section>
   );

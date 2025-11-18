@@ -1,14 +1,19 @@
+import Link from 'next/link';
 import type { ReactNode } from 'react';
 
 type ButtonProps = {
   children: ReactNode;
+  href: string;
 };
 
-function Button({ children }: ButtonProps) {
+function Button({ children, href }: ButtonProps) {
   return (
-    <button className="bg-spotify-green-a hover:bg-spotify-green-b rounded-full px-8 py-2 leading-8 font-bold text-black transition-transform hover:scale-[1.04]">
+    <Link
+      href={href}
+      className="bg-spotify-green-a hover:bg-spotify-green-b block rounded-full px-8 py-2 leading-8 font-bold text-black transition-transform hover:scale-[1.04]"
+    >
       {children}
-    </button>
+    </Link>
   );
 }
 

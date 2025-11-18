@@ -44,7 +44,10 @@ const PROJECTS = [
 
 function RecentProjects() {
   return (
-    <section className="m-auto w-full max-w-[1920px] p-32">
+    <section
+      className="m-auto w-full max-w-[1920px] scroll-mt-24 p-32"
+      id="projects"
+    >
       <h2 className="text-spotify-subdued mb-32 text-center text-[3.5em] leading-[1.2em] font-extralight">
         My recent projects
         <br />{' '}
